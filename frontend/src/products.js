@@ -1,0 +1,108 @@
+const products = [
+  {
+    _id: "1",
+    name: "Klasyczna kurtka dżinsowa",
+    image: "/images/1.png",
+    description:
+      "Wykonana w 100% z bawełnianego denimu, ta klasyczna kurtka ma zapięcie na guziki z przodu i dwie kieszenie na piersi. Idealna do casualowych, codziennych stylizacji.",
+    brand: "Levi's",
+    category: "Kurtki",
+    price: 69.99,
+    countInStock: 5,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    _id: "2",
+    name: "Bluza z miękkiej bawełny",
+    image: "/images/2.png",
+    description:
+      "Ta miękka i wygodna bluza jest wykonana w 100% z bawełny. Posiada okrągły dekolt i krótkie rękawy. Dostępne w różnych kolorach.",
+    brand: "Hanes",
+    category: "Bluzy",
+    price: 12.99,
+    countInStock: 25,
+    rating: 0,
+    numReviews: 0,
+  },
+  {
+    _id: "3",
+    name: "Polarowa bluza z kapturem",
+    image: "/images/3.png",
+    description:
+      "Zachowaj ciepło i wygodę w tej polarowej bluzie z kapturem. Wykonana z miękkiego, szczotkowanego polaru, ma kaptur ściągany sznurkiem i kieszenie kangurki.",
+    brand: "Champion",
+    category: "Bluzy",
+    price: 39.99,
+    countInStock: 15,
+    rating: 4.7,
+    numReviews: 30,
+  },
+  {
+    _id: "4",
+    name: "Wąska bluza oksfordzka",
+    image: "/images/4.png",
+    description:
+      "Ta dopasowana bluza oxford jest wykonana z miękkiego, trwałego bawełnianego materiału. Ma zapięcie na guziki z przodu, kołnierzyk na guziki i pojedynczą kieszeń na piersi.",
+    brand: "Calvin Klein",
+    category: "Bluzy",
+    price: 49.99,
+    countInStock: 10,
+    rating: 4.6,
+    numReviews: 20,
+  },
+
+  {
+    _id: "5",
+    name: "Sweter z dzianiny w warkocze",
+    image: "/images/5.png",
+    description:
+      "Zachowaj ciepło i przytulność w tym warkoczowym swetrze. Jest wykonana z miękkiej mieszanki wełnianej i ma prążkowany kołnierzyk, mankiety i lamówkę.",
+    brand: "Gap",
+    category: "Swetry",
+    price: 59.99,
+    countInStock: 8,
+    rating: 4.9,
+    numReviews: 15,
+  },
+  {
+    _id: "6",
+    name: "Jedwabna bluza",
+    image: "/images/6.png",
+    description:
+      "Ta elegancka jedwabna bluzka ma zapięcie na guziki z przodu i długie rękawy. Lekki i lejący materiał sprawia, że idealnie nadaje się na eleganckie okazje.",
+    brand: "Ann Taylor",
+    category: "Bluzy",
+    price: 89.99,
+    countInStock: 6,
+    rating: 4.7,
+    numReviews: 12,
+  },
+
+  {
+    _id: "7",
+    name: "Bluza z mieszanki lnianej",
+    image: "/images/7.png",
+    description:
+      "Zachowaj chłód i wygodę w tej lnianej bluzie. Luźny krój i przewiewny materiał sprawiają, że jest idealna na ciepłe dni. Posiada zapięcie z przodu na guziki i krótkie rękawy.",
+    brand: "Banana Republic",
+    category: "Kurtki",
+    price: 39.99,
+    countInStock: 12,
+    rating: 4.6,
+    numReviews: 25,
+  },
+  {
+    _id: "8",
+    name: "Skórzana kurtka motocyklowa",
+    image: "/images/8.png",
+    description:
+      "Ta odważna skórzana kurtka motocyklowa ma asymetryczne zapięcie na suwak i wiele kieszeni. Jest wykonany z wytrzymałego materiału skórzanego i ma dopasowany krój.",
+    brand: "AllSaints",
+    category: "Kurtki",
+    price: 249.99,
+    countInStock: 4,
+    rating: 4.9,
+    numReviews: 10,
+  },
+];
